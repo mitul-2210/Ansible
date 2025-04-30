@@ -104,7 +104,6 @@ sudo apt install -y ansible openssh-client
 ```
 
 ![image](image1.jpg)
-![image](image2.jpg)
 
 ### 2. Create Project Directory
 
@@ -260,7 +259,6 @@ ansible-playbook -i inventory.ini playbook.yml
 ```
 
 ![image](image9.png)
-![image](image10.png)
 
 ## Verification
 
@@ -268,7 +266,7 @@ ansible-playbook -i inventory.ini playbook.yml
 
 ```bash
 # Check Python version
-for i in {1..5}; do
+for i in {1..5}; doa
     echo "Python version on server$i:"
     docker exec server$i python3 --version
 done
@@ -292,8 +290,7 @@ for i in {1..5}; do
 done
 ```
 
-![image](image11.png)
-![image](image12.png)
+![image](image10.jpg)
 
 ### Ansible Verification
 
@@ -322,7 +319,7 @@ done
 rm -rf .ssh
 ```
 
-![image](image13.png)
+![image](image14.png)
 
 ## Troubleshooting
 
