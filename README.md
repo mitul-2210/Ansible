@@ -1,10 +1,6 @@
-<div align="center">
-    <img src="Ansible.png" alt="Ansible Logo" style="width: 200px; height: auto;">
-</div>
-
 # Ansible Demo with Docker
 
-Created by Aditya Raj | SAP- 500106004
+Created by Mitul Tandon | SAP- 500105734
 
 This project demonstrates how to use Ansible to manage multiple Docker containers as target servers. It showcases Ansible's ability to automate server configuration and management across multiple hosts.
 
